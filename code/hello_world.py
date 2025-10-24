@@ -1,0 +1,5 @@
+print("Just tesing the github action workflow...")
+print("Hello, World!")
+print("This is a simple Python script.")
+print("Goodbye, World!")
+print("This is the end of the script.")
