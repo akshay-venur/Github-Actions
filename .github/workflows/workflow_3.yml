@@ -33,8 +33,6 @@ jobs:
 
       - name: Commit & push results
         run: |
-          git config user.name "akshay-venur"
-          git config user.email "akshay16venur@gmail.com"
           git add .
           git commit -m "Auto update: new output file" || echo "No changes to commit"
           git push
