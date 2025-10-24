@@ -15,7 +15,9 @@ end_date = datetime.strptime(args.end, "%Y-%m-%d")
 os.makedirs("output", exist_ok=True)
 
 # Prepare output file path
-output_file = os.path.join("output", "dates.txt")
+# --- Add timestamp to filename to make it unique ---
+timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S")
+output_file = os.path.join("output", f"dates_{timestamp_str}.txt")
 
 # Generate all dates between start and end
 current_date = start_date
