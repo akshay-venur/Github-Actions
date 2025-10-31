@@ -1,4 +1,5 @@
-name: Data Pipeline Every 5 mins
+# This workflow runs a data pipeline every 10 minutes, fetching data for the previous month and committing the results back to the repository.
+name: Data Pipeline Every 10 mins
 
 on:
   schedule:

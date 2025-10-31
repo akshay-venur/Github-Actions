@@ -1,3 +1,4 @@
+# This workflow runs a simple hello world script upon manual trigger
 name: simple-workflow
 
 on: 

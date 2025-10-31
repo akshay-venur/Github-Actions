@@ -1,3 +1,4 @@
+# This workflow runs a simple hello world script upon push to main branch. Also sets up Python and installs dependencies.
 name: push-github-workflow
 
 on: 
